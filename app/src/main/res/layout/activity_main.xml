@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/screenshot_2021_12_04_at_23_07_15" />
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/regTitle"
         android:layout_width="282dp"
         android:layout_height="74dp"
         android:layout_alignParentLeft="true"
@@ -37,7 +37,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginBtn"
+        android:id="@+id/regBtn"
         android:layout_width="223dp"
         android:layout_height="50dp"
         android:background="#265628"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691" />
+        app:layout_constraintVertical_bias="0.69" />
 
     <TextView
         android:id="@+id/mailtxt"
@@ -65,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.299"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <TextView
         android:id="@+id/passtxt"
@@ -81,7 +81,7 @@
         app:layout_constraintHorizontal_bias="0.299"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.432" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/logPage"
@@ -114,7 +114,7 @@
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/inMail"
+        android:id="@+id/mailInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -124,11 +124,11 @@
         app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38"
+        app:layout_constraintVertical_bias="0.361"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -138,7 +138,21 @@
         app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524"
+        app:layout_constraintVertical_bias="0.485"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <CheckBox
+        android:id="@+id/remBox"
+        android:layout_width="227dp"
+        android:layout_height="40dp"
+        android:text="Remember password."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
         tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
