@@ -37,7 +37,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/regBtn"
+        android:id="@+id/signBtn"
         android:layout_width="223dp"
         android:layout_height="50dp"
         android:background="#265628"
