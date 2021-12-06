@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenshot_2021_12_05_at_22_14_41"
+    tools:context=".ItemsPage">
+
+    <TextView
+        android:id="@+id/txt_items"
+        android:layout_width="213dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Items Available"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/profileBtn"
+        android:layout_width="115dp"
+        android:layout_height="94dp"
+        android:layout_alignEnd="@id/txt_items"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/screenshot_2021_12_05_at_23_14_21"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <SearchView
+        android:id="@+id/searchProduct"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@id/profileBtn"
+        android:iconifiedByDefault="false"
+        android:translationY="50dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/searchProduct"
+        android:layout_alignBottom="@id/profileBtn"
+        android:width="100dp"
+        android:background="#265628"
+        android:text="Post Item"
+        android:textColor="#FFFFFF"
+        android:translationX="120dp"
+        android:translationY="50dp" />
+    <ListView
+        android:id="@+id/list_posts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_item"
+        android:translationY="60dp"/>
+
+
+
+</RelativeLayout>
