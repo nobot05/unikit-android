@@ -28,7 +28,7 @@
         android:id="@+id/signBtn"
         android:layout_width="207dp"
         android:layout_height="42dp"
-        android:background="#265628"
+        android:background="@drawable/rounded_corners"
         android:backgroundTint="#265628"
         android:radius="10dp"
         android:text="Sign Up"

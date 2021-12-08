@@ -44,7 +44,7 @@
         android:layout_alignEnd="@+id/searchProduct"
         android:layout_alignBottom="@id/profileBtn"
         android:width="100dp"
-        android:background="#265628"
+        android:background="@drawable/rounded_corners"
         android:text="Post Item"
         android:textColor="#FFFFFF"
         android:translationX="120dp"
