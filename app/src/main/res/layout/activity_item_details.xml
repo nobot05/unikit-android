@@ -29,6 +29,67 @@
             android:layout_marginTop="300dp"
             android:background="@drawable/item_details_rounded" />
 
+        <TextView
+            android:id="@+id/itemNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="320dp"
+            android:text="item's name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#265628 "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="380dp"
+            android:text="Description:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemDescrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="410dp"
+            android:text="item descrip."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginRight="30dp"
+            android:text="Do you like this item and it fullfills your needs? Contect the owner for more info!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Contact owner!"
+            android:textColor="#FFFFFF" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backBtn"
+            android:layout_width="56dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/screenshot_2021_12_08_at_11_16_16"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
     </FrameLayout>
 
 

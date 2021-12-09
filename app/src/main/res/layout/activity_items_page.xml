@@ -49,12 +49,13 @@
         android:textColor="#FFFFFF"
         android:translationX="120dp"
         android:translationY="50dp" />
+
     <ListView
         android:id="@+id/list_posts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_add_item"
-        android:translationY="60dp"/>
+        android:translationY="60dp" />
 
 
 
