@@ -51,7 +51,7 @@
         android:translationY="50dp" />
 
     <ListView
-        android:id="@+id/list_posts"
+        android:id="@android:id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_add_item"
