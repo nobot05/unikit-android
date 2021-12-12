@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     if (!result.equalsIgnoreCase("Invalid email or password")) {
                         goToItemsPage(result);
                     } else {
-                        Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG);
+                        Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG).show();
                     }
                 } catch (IOException e) {
                     e.printStackTrace();

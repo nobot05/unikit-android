@@ -35,7 +35,8 @@
         android:layout_height="48dp"
         android:layout_alignBottom="@id/profileBtn"
         android:iconifiedByDefault="false"
-        android:translationY="50dp" />
+        android:translationY="50dp"
+        android:queryHint="Search Here"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_add_item"
